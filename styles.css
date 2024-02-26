@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 992px) {
-    /* Adjust styles here */
+
 }
 
 header{
@@ -105,6 +105,10 @@ li a:hover::after{
 
 .s2{
     height: 90vh;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .s2-title{
@@ -141,4 +145,90 @@ li a:hover::after{
     color: #3f4146;
     font-size: 18px;
     margin-top: 5px;
+}
+
+.s3{
+    background-color: #e5e7eb;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-auth{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.s3-main{
+    margin: 0 22%;
+}
+
+.s4{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    width: 60em;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+.sign-up{
+    padding: 10px 20px;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+    border-style: solid;
+}
+
+.left-text-head , .left-text-para{
+    color: #e5e7eb;
+    font-family: sans-serif;
+}
+
+.left-text-para{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    height: 15vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: #f9faf8;
+    font-size: large;
+    font-family: sans-serif;
 }
